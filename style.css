@@ -5,6 +5,7 @@ body {
     align-items: stretch;
     text-align: center;
     margin: 0px;
+    font-family: "Tahoma", "Verdana", sans-serif;
 }
 
 body div {
@@ -21,4 +22,35 @@ body div {
 
 .quote {
     background-color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+}
+
+/* 
+I'm not convinced by the size and color of these.
+I think they match the specs, but they look off compared to the screenshot.
+*/
+li a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
