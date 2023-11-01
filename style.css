@@ -5,7 +5,14 @@ body {
     align-items: center;
 }
 
-div {
-    flex: auto;
-    height: 100px;
+.header, .hero, .footer {
+    background-color: #1F2937;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+}
+
+.quote {
+    background-color: #E5E7EB;
 }
