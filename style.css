@@ -117,11 +117,40 @@ button {
 
 .information .main-text {
     flex: 1;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .card-reel {
     display: flex;
+    flex-direction: row;
     gap: 8px;
+    align-items: center;
+    justify-content: space-around;
+    flex: 4;
+    padding: 0 300px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: auto;
+}
+
+.card .secondary-text {
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.box {
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 3px ;
+    border-radius: 8px;
+    height: 120px;
+    width: 120px;
 }
 
 .quote {
