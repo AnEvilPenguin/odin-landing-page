@@ -13,16 +13,16 @@ body {
     height: 100%;
 }
 
-body div {
-    padding: 0px 96px
-}
-
 .main {
     padding: 0px;
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.header, .content, .footer {
+    padding: 16px
 }
 
 .header, .hero, .footer {
@@ -48,6 +48,54 @@ body div {
 
 .content {
     flex: 1;
+    padding: 96px;
+    gap: 24px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .left-column {
+    text-align: left;
+    flex: 1;
+}
+
+.hero .right-column {
+    background-color: slategrey;
+    color: white;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border-width: 0;
+    border-radius: 6px;
+    color: #E5E7EB;
+    padding: 6px 24px;
+}
+
+.image-placeholder {
+    text-align: center;
+    padding: 0;
 }
 
 ul {
@@ -62,10 +110,6 @@ li {
     list-style: none;
 }
 
-/*
-I'm not convinced by the size and color of these.
-I think they match the specs, but they look off compared to the screenshot.
-*/
 li a {
     font-weight: normal;
     text-decoration: none;
