@@ -66,6 +66,7 @@ li a {
     flex-basis: 300px;
     flex-grow: 1;
     flex-shrink: 1;
+    padding: 10% 20%;
 }
 
 .hero {
@@ -88,6 +89,7 @@ li a {
     justify-content: center;
     align-items: center;
     flex: 1;
+    flex-shrink: 0;
 }
 
 .main-text {
@@ -161,6 +163,10 @@ button {
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 0;
 }
 
 .quote-text {
@@ -184,8 +190,10 @@ button {
     text-align: left;
     justify-content: space-evenly;
     align-items: center;
-    margin: 48px;
+    margin: 10% 10%;
+    padding: 0;
     border-radius: 6px;
+    flex-basis: 150px;
 }
 
 .call-to-action .main-text {
@@ -200,6 +208,26 @@ button {
     border-color: #F9FAF8;
     border-style: solid;
     border-width: 1px;
+}
+
+.cta-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.cta-container .main-text {
+    flex: 1;
+    margin: 0;
+}
+
+.cta-container .secondary-text {
+    flex: 1;
+    margin: 0;
 }
 
 .footer {
