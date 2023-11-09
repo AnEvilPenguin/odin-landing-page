@@ -174,4 +174,24 @@ button {
 
 .call-to-action {
     background-color: #3882F6;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 48px;
+    border-radius: 6px;
+}
+
+.call-to-action .main-text {
+    font-size: 24px;
+}
+
+.call-to-action .secondary-text {
+    font-size: 18px;
+}
+
+.call-to-action button {
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-width: 1px;
 }
